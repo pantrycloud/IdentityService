@@ -3,21 +3,19 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 17
 VisualStudioVersion = 17.0.31903.59
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "src/PantryCloud.IdentityService.Core", "src/PantryCloud.IdentityService.Core\PantryCloud.IdentityService.Core.csproj", "{95A5AA83-19FF-4B60-9156-64A4FE9AAFD2}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "PantryCloud.IdentityService.Core", "src\PantryCloud.IdentityService.Core\PantryCloud.IdentityService.Core.csproj", "{95A5AA83-19FF-4B60-9156-64A4FE9AAFD2}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "src/PantryCloud.IdentityService.Presentation", "src/PantryCloud.IdentityService.Presentation\PantryCloud.IdentityService.Presentation.csproj", "{239A366B-3E98-4070-9777-0BF1F3C5DA49}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "PantryCloud.IdentityService.Presentation", "src\PantryCloud.IdentityService.Presentation\PantryCloud.IdentityService.Presentation.csproj", "{239A366B-3E98-4070-9777-0BF1F3C5DA49}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "src/PantryCloud.IdentityService.Infrastructure", "src/PantryCloud.IdentityService.Infrastructure\PantryCloud.IdentityService.Infrastructure.csproj", "{CB8D6370-C700-4BF3-A0B2-E30943CA0A2A}"
-EndProject
-Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "docker", "docker", "{B6F4F505-6117-4AA5-8D23-EA20A3DE1354}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "PantryCloud.IdentityService.Infrastructure", "src\PantryCloud.IdentityService.Infrastructure\PantryCloud.IdentityService.Infrastructure.csproj", "{CB8D6370-C700-4BF3-A0B2-E30943CA0A2A}"
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "src", "src", "{003F156B-C4BF-49EE-86F7-6DF9473EB6C0}"
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "PantryCloud.IdentityService.Application", "src\PantryCloud.IdentityService.Application\PantryCloud.IdentityService.Application.csproj", "{A223E206-1F86-4E87-8888-1200D8F8871C}"
 EndProject
-Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "tests", "tests", "{B07D82EF-96E3-44F8-9D74-826D31DA170B}"
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "tests", "tests", "{0AB3BF05-4346-4AA6-1389-037BE0695223}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "PantryCloud.IdentityService.UnitTests", "PantryCloud.IdentityService.UnitTests\PantryCloud.IdentityService.UnitTests.csproj", "{0B57F7EE-3B49-416F-AF6B-A5A1563C5FBF}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "PantryCloud.IdentityService.UnitTests", "tests\PantryCloud.IdentityService.UnitTests\PantryCloud.IdentityService.UnitTests.csproj", "{056067B2-5C9C-4494-BA2F-4A2FCFF4ADA0}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -77,27 +75,27 @@ Global
 		{A223E206-1F86-4E87-8888-1200D8F8871C}.Release|x64.Build.0 = Release|Any CPU
 		{A223E206-1F86-4E87-8888-1200D8F8871C}.Release|x86.ActiveCfg = Release|Any CPU
 		{A223E206-1F86-4E87-8888-1200D8F8871C}.Release|x86.Build.0 = Release|Any CPU
-		{0B57F7EE-3B49-416F-AF6B-A5A1563C5FBF}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{0B57F7EE-3B49-416F-AF6B-A5A1563C5FBF}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{0B57F7EE-3B49-416F-AF6B-A5A1563C5FBF}.Debug|x64.ActiveCfg = Debug|Any CPU
-		{0B57F7EE-3B49-416F-AF6B-A5A1563C5FBF}.Debug|x64.Build.0 = Debug|Any CPU
-		{0B57F7EE-3B49-416F-AF6B-A5A1563C5FBF}.Debug|x86.ActiveCfg = Debug|Any CPU
-		{0B57F7EE-3B49-416F-AF6B-A5A1563C5FBF}.Debug|x86.Build.0 = Debug|Any CPU
-		{0B57F7EE-3B49-416F-AF6B-A5A1563C5FBF}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{0B57F7EE-3B49-416F-AF6B-A5A1563C5FBF}.Release|Any CPU.Build.0 = Release|Any CPU
-		{0B57F7EE-3B49-416F-AF6B-A5A1563C5FBF}.Release|x64.ActiveCfg = Release|Any CPU
-		{0B57F7EE-3B49-416F-AF6B-A5A1563C5FBF}.Release|x64.Build.0 = Release|Any CPU
-		{0B57F7EE-3B49-416F-AF6B-A5A1563C5FBF}.Release|x86.ActiveCfg = Release|Any CPU
-		{0B57F7EE-3B49-416F-AF6B-A5A1563C5FBF}.Release|x86.Build.0 = Release|Any CPU
+		{056067B2-5C9C-4494-BA2F-4A2FCFF4ADA0}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{056067B2-5C9C-4494-BA2F-4A2FCFF4ADA0}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{056067B2-5C9C-4494-BA2F-4A2FCFF4ADA0}.Debug|x64.ActiveCfg = Debug|Any CPU
+		{056067B2-5C9C-4494-BA2F-4A2FCFF4ADA0}.Debug|x64.Build.0 = Debug|Any CPU
+		{056067B2-5C9C-4494-BA2F-4A2FCFF4ADA0}.Debug|x86.ActiveCfg = Debug|Any CPU
+		{056067B2-5C9C-4494-BA2F-4A2FCFF4ADA0}.Debug|x86.Build.0 = Debug|Any CPU
+		{056067B2-5C9C-4494-BA2F-4A2FCFF4ADA0}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{056067B2-5C9C-4494-BA2F-4A2FCFF4ADA0}.Release|Any CPU.Build.0 = Release|Any CPU
+		{056067B2-5C9C-4494-BA2F-4A2FCFF4ADA0}.Release|x64.ActiveCfg = Release|Any CPU
+		{056067B2-5C9C-4494-BA2F-4A2FCFF4ADA0}.Release|x64.Build.0 = Release|Any CPU
+		{056067B2-5C9C-4494-BA2F-4A2FCFF4ADA0}.Release|x86.ActiveCfg = Release|Any CPU
+		{056067B2-5C9C-4494-BA2F-4A2FCFF4ADA0}.Release|x86.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
 	EndGlobalSection
 	GlobalSection(NestedProjects) = preSolution
-		{A223E206-1F86-4E87-8888-1200D8F8871C} = {003F156B-C4BF-49EE-86F7-6DF9473EB6C0}
 		{95A5AA83-19FF-4B60-9156-64A4FE9AAFD2} = {003F156B-C4BF-49EE-86F7-6DF9473EB6C0}
-		{CB8D6370-C700-4BF3-A0B2-E30943CA0A2A} = {003F156B-C4BF-49EE-86F7-6DF9473EB6C0}
 		{239A366B-3E98-4070-9777-0BF1F3C5DA49} = {003F156B-C4BF-49EE-86F7-6DF9473EB6C0}
-		{0B57F7EE-3B49-416F-AF6B-A5A1563C5FBF} = {B07D82EF-96E3-44F8-9D74-826D31DA170B}
+		{CB8D6370-C700-4BF3-A0B2-E30943CA0A2A} = {003F156B-C4BF-49EE-86F7-6DF9473EB6C0}
+		{A223E206-1F86-4E87-8888-1200D8F8871C} = {003F156B-C4BF-49EE-86F7-6DF9473EB6C0}
+		{056067B2-5C9C-4494-BA2F-4A2FCFF4ADA0} = {0AB3BF05-4346-4AA6-1389-037BE0695223}
 	EndGlobalSection
 EndGlobal

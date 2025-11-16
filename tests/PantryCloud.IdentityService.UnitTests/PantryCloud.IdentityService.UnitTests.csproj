@@ -23,10 +23,10 @@
     </ItemGroup>
 
     <ItemGroup>
-      <ProjectReference Include="..\src\PantryCloud.IdentityService.Application\PantryCloud.IdentityService.Application.csproj" />
-      <ProjectReference Include="..\src\PantryCloud.IdentityService.Core\PantryCloud.IdentityService.Core.csproj" />
-      <ProjectReference Include="..\src\PantryCloud.IdentityService.Infrastructure\PantryCloud.IdentityService.Infrastructure.csproj" />
-      <ProjectReference Include="..\src\PantryCloud.IdentityService.Presentation\PantryCloud.IdentityService.Presentation.csproj" />
+      <ProjectReference Include="..\..\src\PantryCloud.IdentityService.Application\PantryCloud.IdentityService.Application.csproj" />
+      <ProjectReference Include="..\..\src\PantryCloud.IdentityService.Core\PantryCloud.IdentityService.Core.csproj" />
+      <ProjectReference Include="..\..\src\PantryCloud.IdentityService.Infrastructure\PantryCloud.IdentityService.Infrastructure.csproj" />
+      <ProjectReference Include="..\..\src\PantryCloud.IdentityService.Presentation\PantryCloud.IdentityService.Presentation.csproj" />
     </ItemGroup>
 
     <ItemGroup>
